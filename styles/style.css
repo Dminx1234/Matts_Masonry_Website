@@ -1,32 +1,43 @@
 /* Entire Page Styling */
-body {    
+body {
+    background-image: url("../images/background.jpg");
+    background-color: rgba(0, 0, 0, 0.66);
+    background-blend-mode: multiply;
     margin: 0;
-    background: url(../images/background.png) repeat;
-    background-size: 100%;
+    color: white;
+    font-size: larger;
 }
 
 /* Header Styling */
 header {
-    background: url(../images/background.png) repeat;
-    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+header div{ 
+    min-height: 125px;
+    max-height:125px;
+    min-width: 400px;
+    max-width: 400px;
     text-align: center;
-    color: white;
 }
-header h1{
-    margin: 0px;
-    line-height: 150%;
-}
-header em{
-    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
-    
-}
+
+
 /* Main Styling */
 main {
-    background: url(../images/background.png) repeat;
-    background-size: 100%;
     margin-top: 10%;
     margin-bottom: 20%;
+    margin: 0 35%;
     text-align: center;
+}
+main li{
+    text-align: left;
+}
+main a{
+    text-decoration: none;
+    color: white;
+}
+main img{
+    padding:5% 0;
 }
 
 /* Footer Styling */
